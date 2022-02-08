@@ -1,0 +1,184 @@
+#plogo { display: block; margin: auto; padding-top: 20px }
+
+.agbg { background: #FFF }
+.m-auto { display: block; margin: auto }
+.text-center { text-align: center }
+
+ul li a { display: block; font: bold 1.3em Georgia; color: #666; text-transform: uppercase }
+ul li a:hover { text-decoration: none; color: #b7b7b7 }
+ul { text-align: center }
+ul li { font: 0.9em Arial sans-serif; color: #b7b7b7; padding-top: 20px }
+
+#blck { height: 330px; background: linear-gradient(to bottom, #161616, #323232); display: flex; flex-direction: column; justify-content: center }
+#slider { height: 300px }
+
+h1 { font: bolder 2em Georgia sans-serif !important; color: #000000; text-align: center; padding-top: 20px }
+
+.line { width: 95%; margin: auto; border: 1px solid #e5e5e5 }
+#artcl1 { display: flex; flex-direction: column; justify-content: center }
+#artcl1 article { padding-bottom: 40px }
+
+.artcl11 { display: flex; flex-direction: column; justify-content: center; align-items: center } 
+
+.h2 { font: 1.5em Georgia !important; color: #11719e }
+
+.h2p { font: 0.75em Arial sans-serif !important; color: #8c8c8c }
+
+#pl { padding-top: 20px }
+
+.h2img {
+    border-radius: 4px;
+    border: 7px solid #e1e1e1;
+    margin: auto
+}
+
+.h2p2 { color: #3e3e3e; font: 1em Arial sans-serif; padding-top: 15px }
+
+.lm {
+    width: 160px;
+    border-radius: 4px;
+    padding: 8px 0 8px 12px;
+    background: linear-gradient(#f7f7f7, #f5f5f5, #e8e8e8);
+    border: 1px solid #d8d8d8;
+    font: 0.8em Arial sans-serif;
+    color: #016999
+}
+
+span { padding: 0 5px 0 60px }
+
+.s2width { display: flex; flex-direction: column; justify-content: center }
+
+.s2h2 { font: 1.5em Georgia; color: #444; padding-top: 60px }
+
+#s2h2 { font: bold 1.3em Georgia; color: #444; padding-top: 30px }
+
+.s2p { color: #444; font: 1em Arial sans-serif; padding-top: 10px }
+
+.s2icon { font-size: 3em; color: #949495; padding-left: 12px }
+
+.icons { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center }
+
+.fa-rss-square { font-size: 3em; color: #949495 }
+
+.fa-rss-square:hover { color: #eb5727 }
+
+.fa-facebook-square:hover { color: #2c4c79 }
+
+.fa-linkedin:hover { color: #4080a6 }
+
+.fa-youtube-square:hover { color: #b02b2e }
+
+.fa-tumblr-square:hover { color: #65b1b8 }
+
+.s2inp {
+    width: 290px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    padding: 10px 0 10px 14px;
+    height: 35px;
+    font: 0.6em Verdana;
+    color: #000;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px
+}
+
+textarea {
+    width: 290px;
+    height: 135px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    font: 0.4em Verdana;
+    color: #000;
+    padding: 10px 0 10px 14px;
+    display: block;
+    margin: auto !important; 
+    margin-bottom: 15px !important
+}
+
+.s2btn {
+    width: 160px;
+    border: 1px solid #004a80;
+    font: 0.8em Georgia;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 0 7px 10px;
+    background: linear-gradient(to right, #356da4, #4c84bd, #4a83bb, #406e9b);
+    height: 35px;
+    margin: auto !important;
+    display: block;
+}
+
+.dotted { margin: auto; display: block }
+.p10 { margin-top: 20px }
+
+
+
+.newup { display: flex; flex-direction: row; height: 80px }
+.newup img { width: 60px; height: 60px; margin: auto }
+.newupp { font: 0.75em Helvetica; color: #444; margin: auto; padding-left: 8px }
+
+#lastbtn { display: block; margin-top: 13px !important; margin: auto }
+
+.color4c { background: #4c4c4c; height: 10px; margin-top: 25px !important; }
+.footerblck { height: 170px; background: #333; display: flex; flex-direction: column; align-items: center; justify-content: center }
+
+.footerdiv p { font: 0.69em Helvetica; color: #999 }
+.footerdiv a { color: #999 }
+.footerdiv a:hover { color: #999; text-decoration: none }
+.footerdiv { text-align: center; }
+
+
+    
+    
+
+@media only screen and (min-width: 768px) {
+    .container { max-width: 960px !important; margin: auto ; padding-left: inherit !important; padding-right: inherit !important }
+    .container-fluid { width: 100%; margin: auto }
+    #blck { background: linear-gradient(to bottom, #161616, #323232); padding-top: 30px; display: inherit }
+    #slider { height: 330px; background: #000 }
+    #line { max-width: 960px }
+
+    #plogo { display: inline-block; padding-top: 37px; }
+    ul li a { display: block; font: bold 1em Georgia; color: #666; text-transform: uppercase }
+    ul li { display: inline-block; border-left: 1px dotted #d6d6d6; padding-top: inherit; padding: 0 10px }
+    ul { display: flex; height: 35px; margin-top: auto !important; margin-bottom: auto !important; padding-top: 7px }
+    .header { display: flex; flex-direction: row; height: 136px; justify-content: space-between }
+    
+    h1 { padding-top: 60px }
+
+    #artcl1 { flex-direction: row; max-width: 960px; flex-wrap: wrap }
+    .h2 { font: 1.3em Georgia !important }
+    .artcl11 { display: inline-block; padding-top: 38px; max-width: 300px }
+    .artcl12 { margin-right: 25px }
+    .artcl14 { margin-left: 25px }
+
+    .s2div { width: 300px; display: flex; flex-direction: row; flex-wrap: wrap }
+    .s2width { max-width: 960px; display: flex; flex-direction: row; flex-wrap: wrap }
+
+    .s2h2 { padding-top: 40px }
+    
+    .dotted { width: 255px; height: 1px; margin: 0px }
+ 
+    #lastbtn { margin: 0 !important; margin-top: 10px !important }
+    .s2btn { margin: 0 !important}
+
+    .s2div1 { margin-right: 25px }
+    .s2div3 { margin-left: 25px }
+    .s2inp { margin-left: 0 !important; margin-top: 0; margin-bottom: -15px }
+    textarea { margin-left: inherit !important; margin-top: 0 !important; margin-bottom: -15px !important }
+    
+    #email { margin-bottom: 15px }
+
+    #pl { padding-top: 0px }
+
+    #cnctct { margin-bottom: -20px !important }
+
+    #nu { margin-bottom: 1px }
+
+    #name { margin-top: -11px; }
+
+    .footerdiv { display: flex; flex-direction: row; flex-wrap: wrap; width: 960px; justify-content: space-between; text-align: inherit }
+}
